@@ -1,26 +1,40 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cssBayan Margarita Parkalova</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <h1>Прикольчики</h1>
+  <h1 class="title_bayan">Прикольчики</h1>
   </header>
 <nav>
   <ul>
     <li><a href='#bayan1'>Шутка 1</a></li>
-   <li><a href='#'>Шутка 2</a></li> 
+   <li><a href='#bayan2'>Шутка 2</a></li>
     </ul>
   </nav>
 <section class=bayan1>
-  <div>
-    <h2 name='bayan1'>Шутка 1</h2>
+  <div class="spoiler">
+    <input type="checkbox" id="spoiler1"  checked="checked">
+    <label for="spoiler1" id="bayan1">Внимание, дубль 1!</label>
+    <div class="panel">
+      <img src="img/bayan1.jpg" alt="В магазине модной одежды" class="img-bayan1">
+      <p class="text-spoiler">Да, бывает сделать сложновато выбор в магазине, ну это если выбирать по названию :D</p></div>
   </div>
   </section>
-<footer>Ну вот и всё. Ну вот и всё.</footer>
+  <section class=bayan2>
+    <div class="spoiler">
+      <input type="checkbox" id="spoiler2">
+      <label for="spoiler2" id="bayan2">Попытка №2</label>
+      <div class="panel">
+        <img src="img/bayan2.jpg" alt="В магазине модной одежды" class="img-bayan1">
+        <p class="text-spoiler">Вставать по утрам сложно, особенно если всю ночь сидела и пыталась выполнить это задание ;D</p></div>
+    </div>
+    </section>
+<footer class="footer">Ну вот и всё. Ну вот и всё.</footer>
 </body>
 </html>
 
